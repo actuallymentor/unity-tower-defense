@@ -2,14 +2,12 @@
 using System.Collections;
 
 public class Buildplace : MonoBehaviour {
+    // The Tower that should be built
+    public GameObject towerPrefab;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    void OnMouseUpAsButton() {
+        // Build Tower above Buildplace
+        GameObject towerInstance = (GameObject)Instantiate(towerPrefab);
+        towerInstance.transform.position = transform.position + Vector3.up;
+    }
 }
