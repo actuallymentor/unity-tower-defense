@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4b043e8954ae249bd53d25c2bd2e81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 0}
+  towerPrefab: {fileID: 113540, guid: 4fa36e78a28ea0241bdd6e0069bb2874, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -113,6 +113,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: .100000001
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: towerPrefab
+      value: 
+      objectReference: {fileID: 113540, guid: 4fa36e78a28ea0241bdd6e0069bb2874, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 135724}

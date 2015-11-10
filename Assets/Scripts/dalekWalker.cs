@@ -8,9 +8,4 @@ public class dalekWalker : MonoBehaviour {
 		NavMeshAgent dalekNavAgent = GetComponent<NavMeshAgent>();
 		dalekNavAgent.destination = GameObject.Find ("Tardis").transform.position;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

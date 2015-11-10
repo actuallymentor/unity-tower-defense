@@ -15,7 +15,7 @@ public class SpawnController : MonoBehaviour {
 	void SpawnCycle() {
 		if (spawningDaleks) {
 			if (Random.value < spawnDifficulty) {
-				Debug.Log ("Spawned | Diff: " + spawnDifficulty);
+				// Debug.Log ("Spawned | Diff: " + spawnDifficulty);
 				SpawnDalek ();
 			}
 		}
