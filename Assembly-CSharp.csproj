@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{97956370-E691-8277-983E-6B7F5335D864}</ProjectGuid>
+	<ProjectGuid>{BE1193AA-951A-D659-9DA0-23AABC233E69}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,11 +49,10 @@
      <Compile Include="Assets\Scripts\Highlight.cs" />
      <Compile Include="Assets\Scripts\SpawnController.cs" />
      <Compile Include="Assets\Scripts\Zoom.cs" />
-     <Compile Include="Assets\Scripts\controlHealth.cs" />
      <Compile Include="Assets\Scripts\dalekDamage.cs" />
-     <Compile Include="Assets\Scripts\dalekHealth.cs" />
      <Compile Include="Assets\Scripts\dalekWalker.cs" />
      <Compile Include="Assets\Scripts\towerHealth.cs" />
+     <Compile Include="Assets\Scripts\variableControl.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

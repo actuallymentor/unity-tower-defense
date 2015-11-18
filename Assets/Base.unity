@@ -4150,6 +4150,7 @@ GameObject:
   - 33: {fileID: 1395060108}
   - 64: {fileID: 1395060107}
   - 23: {fileID: 1395060106}
+  - 114: {fileID: 1395060110}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -4213,6 +4214,22 @@ Transform:
   - {fileID: 1815738761}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1395060110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395060105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605efadab9092914cac090cc6838f637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnDifficulty: .5
+  enemyDifficulty: 10
+  spawnSpeed: 1
+  TardisHealth: 100
+  TowerHealth: 100
 --- !u!1001 &1454540349
 Prefab:
   m_ObjectHideFlags: 0
@@ -5412,7 +5429,6 @@ GameObject:
   - 33: {fileID: 1896348291}
   - 65: {fileID: 1896348290}
   - 23: {fileID: 1896348289}
-  - 114: {fileID: 1896348292}
   - 54: {fileID: 1896348293}
   - 114: {fileID: 1896348294}
   m_Layer: 0
@@ -5477,18 +5493,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1896348287}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1896348292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1896348287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4be0b344e0b66f249a261d4c47527d9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TardisHealth: 100
 --- !u!54 &1896348293
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5515,6 +5519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090de0edd9a7ef4ab0f1e495c6bd64b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  varCont: {fileID: 0}
 --- !u!1001 &1900734953
 Prefab:
   m_ObjectHideFlags: 0

@@ -1,0 +1,486 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sc",
+				"script"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"cls",
+				"cls"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Mentor/.ssh/id_rsa.pub",
+			"settings":
+			{
+				"buffer_size": 745,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Mentor/.bashrc",
+			"settings":
+			{
+				"buffer_size": 122,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nOmniSharp\n---------\n\n  Welcome to OmniSharpSublime!\n  \n  You can now edit C#, build your projects, run your tests, get intellisense, refactor like a pro, be shown syntax errors and lots more!\n  \n  For more information see the README and Wiki here: https://github.com/OmniSharp/omnisharp-sublime\n",
+			"settings":
+			{
+				"buffer_size": 346,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 389.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Mentor/Dev/unity-pvz/unity-pvz.sln",
+		"/C/Users/Mentor/Dev/unity-pvz/Assets/Scripts/Health.cs",
+		"/C/Users/Mentor/id-demo-repo/functions.php",
+		"/C/Users/Mentor/id-demo-repo/README.md",
+		"/C/Users/Mentor/.bashrc",
+		"/E/Downloads/The 4-Hour Chef - The Simple Path to Cooking Like a Pro, Learning Anything, and Living the Good Life/tracked_by_h33t_com.txt",
+		"/C/Users/Mentor/.gitignore_global",
+		"/C/ProgramData/Git/config",
+		"/C/Program Files/Git/etc/ssh/ssh_config",
+		"/C/Program Files/Git/etc/bash.bashrc",
+		"/C/Program Files/Git/setup.ini",
+		"/C/Program Files/Git/etc/profile.d/env.sh",
+		"/C/Users/Mentor/.bash_profile",
+		"/C/Users/Mentor/.bash_history",
+		"/C/Users/Mentor/.ssh/agent.env",
+		"/C/Users/Mentor/.ssh/known_hosts",
+		"/C/Users/Mentor/internet.log",
+		"/C/Users/Mentor/mercurial.ini",
+		"/C/Users/Mentor/.gitconfig",
+		"/E/Downloads/TechSmith Camtasia Studio v8.6.0 Build 2054 + Crack [TechTools.NET]/TechSmith Camtasia Studio v8.6.0 Build 2054 + Crack [TechTools.NET]/TechSmith Camtasia Studio v8.6.0 Build 2054 + Crack [TechTools.NET]/tsz.nfo",
+		"/C/ProgramData/TechSmith/Camtasia Studio 8/RegInfo.ini",
+		"/C/Users/Mentor/Dev/idc-smus/www/README.md",
+		"/E/Downloads/TechSmith Camtasia Studio v8.6.0 Build 2054 + Crack [TechTools.NET]/TechSmith Camtasia Studio v8.6.0 Build 2054 + Crack [TechTools.NET]/TechSmith Camtasia Studio v8.6.0 Build 2054 + Crack [TechTools.NET]/readme.txt",
+		"/E/Downloads/TechSmith Camtasia Studio v8.6.0 Build 2054 + Crack [TechTools.NET]/TechSmith Camtasia Studio v8.6.0 Build 2054 + Crack [TechTools.NET]/TechSmith Camtasia Studio v8.6.0 Build 2054 + Crack [TechTools.NET]/www.TechTools.NET - www.ThumperDC.COM.txt",
+		"/C/Users/Mentor/Desktop/infograph (1).html",
+		"/C/Users/Mentor/Desktop/infograph.html",
+		"/C/Users/Mentor/Dev/idc-smus/www/wp-content/themes/spectrum-child/style.css",
+		"/C/Users/Mentor/Dev/idc-smus/www/wp-content/themes/spectrum-child/functions.php",
+		"/E/Downloads/Adobe Illustrator CC 2015 (v19.0) x86-x64 RUS-ENG{by M0nkrus}=-TEAM OS=-/m0nkrus.nfo",
+		"/E/Onedrive/1 - Work/Projects/Skill Collector/Infographics/Simple Template/Help file.txt",
+		"/C/Users/Mentor/Dev/idc-smus/setup.sh",
+		"/C/Users/Mentor/Dev/idc-smus/www/index.php",
+		"/C/Users/Mentor/Dev/idc-smus/Vagrantfile",
+		"/C/Users/Mentor/Dev/setup-script-LEMH-stack/setup.sh",
+		"/C/Users/Mentor/Dev/vagrant-smus/Vagrantfile",
+		"/E/Onedrive/Dev/Github/setup-script-LEMH-stack/README.md",
+		"/E/Onedrive/Dev/Github/setup-script-LEMH-stack/setup.sh",
+		"/E/Onedrive/Dev/Github/vagrant-smus/setup.sh",
+		"/E/Onedrive/Dev/Github/vagrant-smus/README.md",
+		"/E/Onedrive/Dev/vagrant-smus/setup.sh",
+		"/C/Users/Mentor/Servers/SMU/Vagrantfile",
+		"/C/Users/Mentor/AppData/Local/Temp/7zO55D4.tmp/README.md",
+		"/C/Users/Mentor/Servers/SMU/supermegaukulele.sh",
+		"/C/Users/Public/Desktop/desktop.ini",
+		"/C/Users/Mentor/Desktop/desktop.ini",
+		"/C/Users/Mentor/AppData/Local/Temp/scp42533/etc/nginx/sites-available/default",
+		"/C/Users/Mentor/AppData/Local/Temp/scp42512/etc/nginx/conf.d/skillcollector.conf",
+		"/C/Users/Mentor/Downloads/website",
+		"/C/Users/Mentor/Desktop/servercheck.sh",
+		"/C/Users/Mentor/AppData/Local/Temp/scp37283/etc/nginx/mod_pagespeed.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp39595/etc/nginx/conf.d/skillcollector.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp31720/etc/nginx/sites-available/default",
+		"/C/Users/Mentor/AppData/Local/Temp/scp38831/etc/nginx/nginx.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp35842/root/servercheck.sh",
+		"/C/Users/Mentor/AppData/Local/Temp/scp33667/etc/nginx/hhvm-with-fallback.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp33171/etc/nginx/hhvm-with-fallback.conf",
+		"/C/Users/Mentor/AppData/Local/Evernote/Evernote/Databases/Attachments/hhvm-with-fallback[1].conf",
+		"/C/Users/Mentor/Downloads/phpinfo.php",
+		"/C/Users/Mentor/Desktop/hhvm-with-fallback.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp31985/etc/nginx/conf.d/hilmano.conf",
+		"/C/Users/Mentor/AppData/Local/Evernote/Evernote/Databases/Attachments/website",
+		"/C/Users/Mentor/AppData/Local/Temp/scp17431/var/log/nginx/error.log",
+		"/C/Users/Mentor/AppData/Local/Temp/scp17066/var/log/syslog",
+		"/C/Users/Mentor/AppData/Local/Temp/scp17264/var/log/faillog",
+		"/C/Users/Mentor/AppData/Local/Temp/scp17305/var/log/php5-fpm.log",
+		"/C/Users/Mentor/AppData/Local/Temp/scp10879/var/log/nginx/access.log",
+		"/C/Users/Mentor/AppData/Local/Temp/scp07471/etc/nginx/nginx.conf",
+		"/C/Users/Mentor/AppData/Local/EpicGamesLauncher/Saved/Logs/EpicGamesLauncher.log",
+		"/E/Onedrive/Backups/Crypto/mentorkey",
+		"/E/Onedrive/Backups/Crypto/pubdig",
+		"/C/Users/Mentor/AppData/Local/Temp/scp46874/etc/nginx/sites-available/default",
+		"/C/Users/Mentor/AppData/Local/Temp/scp13626/etc/nginx/sites-available/default",
+		"/C/Users/Mentor/AppData/Local/Temp/scp12776/var/www/html/wp-blog-header.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp12755/var/www/html/index.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp10866/var/log/nginx/error.log",
+		"/C/Users/Mentor/AppData/Local/Temp/scp58331/var/www/html/wp-config.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp48423/var/www/html/index.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp45305/etc/php5/fpm/php.ini",
+		"/E/Onedrive/Backups/Crypto/mentorkeypublic",
+		"/C/Users/Mentor/AppData/Local/Temp/scp45502/etc/nginx/nginx.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp45501/etc/nginx/conf.d/default.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp14651/var/www/skillcollector.com/wp-content/themes/spectrum-child/functions.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp45015/etc/nginx/conf.d/skillcollector.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp52685/var/www/skillcollector.com/wp-content/themes/spectrum-child/page_landing.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp05217/var/www/skillcollector.com/wp-content/themes/spectrum-child/style.css",
+		"/C/Users/Mentor/AppData/Local/Temp/scp28717/etc/nginx/mod_pagespeed.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp27655/var/www/skillcollector.com/wp-content/plugins/wp-remindme-sendy/functions/shortcode.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp28559/etc/nginx/mod_pagespeed_global.conf",
+		"/E/Onedrive/3 - github/wp-slidein-popup/functions/popper.php",
+		"/E/Onedrive/3 - github/wp-slidein-popup/functions/css.php",
+		"/E/Onedrive/3 - github/wp-slidein-popup/functions/admin.php",
+		"/E/Onedrive/3 - github/wp-slidein-popup/wpsp_vars.php",
+		"/E/Onedrive/3 - github/wp-slidein-popup/wpsp-slidein-popup.php",
+		"/E/Onedrive/1 - Work/Projects/Greatist Style Signup.html",
+		"/E/Onedrive/3 - github/wp-slidein-popup/wp-scpo-slidein-popup.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp10229/var/www/skillcollector.com/wp-content/themes/spectrum-child/functions.php",
+		"/C/Users/Mentor/Desktop/jquery.sticky-kit.min.js",
+		"/E/Onedrive/github/wp-remindme-sendy/remindme-sendy.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp52381/var/www/ninjamasksecurity.com/css/custom.css",
+		"/C/Program Files/Ethereum (++) 0.9.38/include/ethcore/KeyManager.h",
+		"/E/Onedrive/github/wp-remindme-sendy/README.md",
+		"/C/Users/Mentor/AppData/Local/Evernote/Evernote/Databases/Attachments/php_class.php",
+		"/E/Onedrive/github/wp-remindme-sendy/empty-plugin.php",
+		"/C/Users/Mentor/Desktop/startmining.bat",
+		"/C/Users/Mentor/Desktop/test.bat",
+		"/C/Users/Mentor/Desktop/ethereum.bat",
+		"/C/Users/Mentor/Desktop/Installethereum.sh",
+		"/C/Users/Mentor/geth.log",
+		"/C/Program Files/Ethereum (++) 0.9.38/include/ethereum/GenesisInfo.h",
+		"/E/genesis_block.json",
+		"/C/Users/Mentor/AppData/Local/Temp/scp08128/etc/nginx/conf.d/skillcollector.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp07664/etc/nginx/mod_pagespeed.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp46564/var/www/skillcollector.com/wp-content/themes/spectrum-child/style.css",
+		"/C/Users/Mentor/AppData/Local/Temp/scp08308/etc/nginx/conf.d/ninjamask.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp08884/etc/nginx/conf.d/hilmano.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp39303/var/www/skillcollector.com/wp-content/themes/spectrum-child/functions.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp07853/etc/nginx/mod_pagespeed_global.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp07560/etc/nginx/conf.d/default.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp07328/etc/nginx/nginx.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp14648/etc/nginx/htpwds",
+		"/C/Users/Mentor/AppData/Local/Temp/scp04776/etc/nginx/conf.d/default.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp12511/var/www/skillcollector.com/wp-content/themes/spectrum-child/functions.php",
+		"/C/Users/Mentor/AppData/Local/Temp/scp19564/etc/nginx/mod_pagespeed.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp31542/etc/nginx/nginx.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp06312/etc/nginx/conf.d/skillcollector.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp05180/etc/nginx/conf.d/hilmano.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp05424/etc/nginx/conf.d/ninjamask.conf",
+		"/C/Users/Mentor/AppData/Local/Temp/scp12251/var/www/skillcollector.com/sendy/includes/config.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"colla",
+			"skillcollector.com/",
+			"skillcollector.com/20",
+			"skillcollector.com/2015/01/20/",
+			"[expand ",
+			"tag=\"h4\" ",
+			"cgi.fix",
+			"scpo",
+			"}",
+			"this->$",
+			"miner",
+			",",
+			"timeout",
+			"terminate",
+			"max_",
+			"max_exec",
+			"request",
+			"timeout",
+			",",
+			" \n\n",
+			"a#order",
+			"cipher",
+			"aes",
+			"client-tcp",
+			"10 a mon",
+			".page-id-3236",
+			"header-w",
+			"limitat",
+			"\"\n\"",
+			"\n\"",
+			"\n",
+			" \n",
+			"\n\n",
+			"\n",
+			"^(?!.*@.*).+$",
+			"EASYRSA_REQ_",
+			"set_var EASYRSA",
+			"'/^set_var",
+			"group",
+			"push",
+			"sed",
+			"uwf",
+			"echo "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"skillcollector.com/",
+			"[expand tag=\"h4\" ",
+			"",
+			"wpsp",
+			"}\n",
+			"$this->",
+			"",
+			"\nModPagespeedEnableFilters ",
+			",\n",
+			"clientTCP",
+			".page-template-template-landing",
+			"\",\"\",\"Lead\",\"\",\"Mentor Palokaj <mentorpalokaj@gmail.com>\",\"\"\n\"",
+			"\"\n\"",
+			"\n\"",
+			"\n",
+			"",
+			"KEY_",
+			"export EASYRSA",
+			"'/^export",
+			"ufw"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Mentor/.ssh/id_rsa.pub",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Mentor/.bashrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "unity-pvz.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

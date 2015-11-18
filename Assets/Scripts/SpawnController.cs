@@ -5,16 +5,18 @@ public class SpawnController : MonoBehaviour {
 	
 	public GameObject dalekPrefab;
 	public static bool spawningDaleks = true;
-	public float spawnDifficulty = 0.5f;
+	public variableControl varCont;
 
 	void Start () {
-		InvokeRepeating("SpawnCycle", 1, 1.0F);
+		GameObject theGround = GameObject.Find("Ground");
+		varCont = theGround.GetComponent<variableControl>();
+		InvokeRepeating("SpawnCycle", varCont.spawnSpeed, 1.0F);
 		SpawnCycle ();
 	}
 	
 	void SpawnCycle() {
 		if (spawningDaleks) {
-			if (Random.value < spawnDifficulty) {
+			if (Random.value < varCont.spawnDifficulty) {
 				// Debug.Log ("Spawned | Diff: " + spawnDifficulty);
 				SpawnDalek ();
 			}

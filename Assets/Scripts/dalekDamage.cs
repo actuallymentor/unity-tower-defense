@@ -2,19 +2,19 @@
 using System.Collections;
 
 public class dalekDamage : MonoBehaviour {
-	private controlHealth controlhealth;
+	public variableControl varCont;
 
-	void Awake() {
-		// Get the tardis
-		controlhealth = GetComponent<controlHealth>();
+	void Start() {
+		GameObject theGround = GameObject.Find("Ground");
+		varCont = theGround.GetComponent<variableControl>();
 	}
 
 	// Dalek reaches Tardis
 	void OnTriggerEnter(Collider other) {
 
 		if (other.gameObject.name == "Dalek(Clone)") {
-			controlhealth.decrease(1);
-			Debug.Log ("Current health is " + controlhealth.current() );
+			varCont.tardisDecrease(varCont.enemyDifficulty);
+			Debug.Log ("Current health is " + varCont.tardisCurrent() );
 			Destroy (other.gameObject);
 		}
 	}
