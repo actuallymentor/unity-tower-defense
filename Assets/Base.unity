@@ -192,7 +192,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 137350, guid: 10a10f223c8d81446816711d2a011756, type: 2}
       propertyPath: m_Name
-      value: SpawnBlock (3)
+      value: Dalek Home
       objectReference: {fileID: 0}
     - target: {fileID: 477182, guid: 10a10f223c8d81446816711d2a011756, type: 2}
       propertyPath: m_LocalScale.y
@@ -201,6 +201,10 @@ Prefab:
     - target: {fileID: 137350, guid: 10a10f223c8d81446816711d2a011756, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551240, guid: 10a10f223c8d81446816711d2a011756, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10a10f223c8d81446816711d2a011756, type: 2}
@@ -4176,7 +4180,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -4225,11 +4231,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605efadab9092914cac090cc6838f637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnDifficulty: .5
+  spawnDifficulty: .100000001
   enemyDifficulty: 10
   spawnSpeed: 1
+  dalekHealth: 100
   TardisHealth: 100
   TowerHealth: 100
+  WT_FireRate: 1
+  _timeyPower: 30
 --- !u!1001 &1454540349
 Prefab:
   m_ObjectHideFlags: 0
@@ -5468,7 +5477,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}

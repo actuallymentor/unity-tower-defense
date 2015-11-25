@@ -15,6 +15,7 @@ GameObject:
   - 195: {fileID: 19519580}
   - 114: {fileID: 11483076}
   - 65: {fileID: 6592990}
+  - 114: {fileID: 11498798}
   m_Layer: 0
   m_Name: Dalek
   m_TagString: Untagged
@@ -52,7 +53,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -103,6 +106,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cc87ca78e9cc834491ada2ccfd14cc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11498798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5611b3a2d24884beaaa9171702ca80ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dalekInstanceHealth: 0
+  _varCont: {fileID: 0}
 --- !u!135 &13526136
 SphereCollider:
   m_ObjectHideFlags: 1

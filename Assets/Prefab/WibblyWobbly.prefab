@@ -15,6 +15,7 @@ GameObject:
   - 135: {fileID: 13595118}
   - 195: {fileID: 19524280}
   - 114: {fileID: 11440734}
+  - 114: {fileID: 11494524}
   m_Layer: 0
   m_Name: WibblyWobbly
   m_TagString: Untagged
@@ -52,7 +53,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -91,7 +94,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 897cfb0383945f24595ace300dd31dde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TowerHealth: 100
+  inPain: 0
+  varCont: {fileID: 0}
+--- !u!114 &11494524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb4ccd2c0ac84af0819dfe2d1a19e66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timeyWimey: {fileID: 154686, guid: 702086073c80c4a0d9e7a0ec04bc003c, type: 2}
+  _varCont: {fileID: 0}
 --- !u!135 &13509928
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -165,6 +182,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _timeyWimey
+      value: 
+      objectReference: {fileID: 154686, guid: 702086073c80c4a0d9e7a0ec04bc003c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

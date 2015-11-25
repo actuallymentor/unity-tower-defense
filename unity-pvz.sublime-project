@@ -6,5 +6,5 @@
             "file_exclude_patterns": ["*.meta"],
         },
     ],
-    "solution_file": "./SuperRPG.sln"
+    "solution_file": "./unity-tower-defense.sln"
 }

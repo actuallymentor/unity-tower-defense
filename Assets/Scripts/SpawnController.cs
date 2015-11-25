@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class SpawnController : MonoBehaviour {
 	
@@ -17,7 +16,7 @@ public class SpawnController : MonoBehaviour {
 	void SpawnCycle() {
 		if (spawningDaleks) {
 			if (Random.value < varCont.spawnDifficulty) {
-				// Debug.Log ("Spawned | Diff: " + spawnDifficulty);
+				Debug.Log ("Spawned | Diff: " + varCont.spawnDifficulty);
 				SpawnDalek ();
 			}
 		}
