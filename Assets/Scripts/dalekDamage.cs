@@ -9,6 +9,12 @@ public class dalekDamage : MonoBehaviour {
 		varCont = theGround.GetComponent<variableControl>();
 	}
 
+	void Update() {
+		if (varCont.tardisCurrent() < 0) {
+			Application.LoadLevel(0);
+		}
+	}
+
 	// Dalek reaches Tardis
 	void OnTriggerEnter(Collider other) {
 

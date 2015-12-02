@@ -9,12 +9,13 @@ public class ShootTimey : MonoBehaviour {
     void Start() {
     	GameObject theGround = GameObject.Find("Ground");
 		_varCont = theGround.GetComponent<variableControl>();
-    	InvokeRepeating("ShootTimeyWimey", _varCont.WT_FireRate, 1);
+    	InvokeRepeating("ShootTimeyWimey", _varCont.WT_FireRate, _varCont.WT_FireRate);
     }
 
     void ShootTimeyWimey() {
         // Build Tower above Buildplace
         GameObject twInstance = Instantiate(_timeyWimey);
+        twInstance.transform.position = transform.position + new Vector3(0,1,1);
         twInstance.transform.position = transform.position + Vector3.forward;
     }
 

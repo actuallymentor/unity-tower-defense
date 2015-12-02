@@ -1,24 +1,34 @@
 ﻿using UnityEngine;
 
 public class TW_Behavior : MonoBehaviour {
-	public bool _hasHit = false;
+	public variableControl _varCont;
+	public float thrust;
+
 
 	// Send the timey wimey on its way
 	void Start () {
-		NavMeshAgent twNavAgent = GetComponent<NavMeshAgent>();
-		twNavAgent.destination = GameObject.Find ("Dalek Home").transform.position;
+		GameObject theGround = GameObject.Find("Ground");
+		_varCont = theGround.GetComponent<variableControl>();
+		thrust = _varCont._timeySpeed;
+	}
+
+	void FixedUpdate () {
+		gameObject.GetComponent<Rigidbody>().AddForce(0, 0, thrust, ForceMode.Force);
 	}
 
 	void OnTriggerEnter(Collider other) {
-		bool hasTriggered = false;
-		if (other.gameObject.name == "Dalek Home") {
+		switch (other.gameObject.name) {
+			case "Dalek(Clone)":
+			other.gameObject.GetComponent<DalekHealth>()._dalekInstanceHealth -= _varCont._timeyPower;
+			print(other.gameObject.GetComponent<DalekHealth>()._dalekInstanceHealth);
 			Destroy (gameObject);
-		}
-		if (other.gameObject.name == "Dalek(Clone)" && !hasTriggered) {
-			Destroy (other.gameObject);
-			hasTriggered = true;
+			break;
+			case "Black Hole":
+			Destroy (gameObject);
+			break;
+			case "WibblyWobbly(Clone)":
+			Debug.Log("WW Detected");
+			break;
 		}
 	}
-
-
 }

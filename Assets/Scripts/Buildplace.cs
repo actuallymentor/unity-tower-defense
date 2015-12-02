@@ -9,5 +9,6 @@ public class Buildplace : MonoBehaviour {
         // Build Tower above Buildplace
         GameObject towerInstance = (GameObject)Instantiate(towerPrefab);
         towerInstance.transform.position = transform.position + Vector3.up;
+
     }
 }

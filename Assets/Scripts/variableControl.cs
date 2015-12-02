@@ -8,15 +8,16 @@ public class variableControl : MonoBehaviour {
 	// DALEK SPAWN CONTROL
 	//						//
 
-	public float spawnDifficulty = 0.1f; // Determines spawn speed, between 0 and 1
+	public float spawnDifficulty = 0.01f; // Determines spawn speed, between 0 and 1
 	public int enemyDifficulty = 10; // Used in tower
-	public float spawnSpeed = 1; // Run SpawnCycle every x seconds
+	public float spawnSpeed = 10; // Run SpawnCycle every x seconds
 
 	//						//
-	// DALEK HEALTH CONTROL
+	// DALEK CONTROL
 	//						//
 
 	public int dalekHealth = 100;
+	public float _dalekSpeed = 0.8f;
 
 	//					//
 	// TARDIS HEALTH CONTROL
@@ -37,11 +38,12 @@ public class variableControl : MonoBehaviour {
 	//						//
 	
 	public int TowerHealth = 100;
-	public int WT_FireRate = 1; // Defined in seconds
+	public float WT_FireRate = 1; // Defined in seconds
 
 	//						//
 	// TIMEY CONTROL
 	//						//
 	public int _timeyPower = 30;
+	public int _timeySpeed = 30;
 
 }

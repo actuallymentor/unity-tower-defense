@@ -4,21 +4,29 @@ using System.Collections;
 public class towerHealth : MonoBehaviour {
 	public bool inPain = false;
 	public variableControl varCont;
+	public int _towerHealth;
 
 
 	void Start() {
 		GameObject theGround = GameObject.Find("Ground");
 		varCont = theGround.GetComponent<variableControl>();
+		_towerHealth = varCont.TowerHealth;
 		InvokeRepeating("GetHurt", 1, 1.0F);
+	}
+
+	void Update() {
+		if (_towerHealth < 0) {
+			Destroy(gameObject);
+		}
 	}
 
 
 	public int current() { // Return the current Health
-		return varCont.TowerHealth;
+		return _towerHealth;
 	}
 	
 	public void decrease(int damagedone) { // Decrease the current Health
-		varCont.TowerHealth = varCont.TowerHealth - damagedone;
+		_towerHealth -= damagedone;
 	}
 
 
