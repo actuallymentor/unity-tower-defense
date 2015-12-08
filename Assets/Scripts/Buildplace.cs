@@ -3,12 +3,20 @@ using System.Collections;
 
 public class Buildplace : MonoBehaviour {
     // The Tower that should be built
-    public GameObject towerPrefab;
+	public GameObject towerPrefab;
+	public variableControl _varCont;
 
-    void OnMouseUpAsButton() {
-        // Build Tower above Buildplace
-        GameObject towerInstance = (GameObject)Instantiate(towerPrefab);
-        towerInstance.transform.position = transform.position + Vector3.up;
+	void Start() {
+		GameObject theGround = GameObject.Find("Ground");
+		_varCont = theGround.GetComponent<variableControl>();
+	}
 
-    }
+	void OnMouseUpAsButton() {
+		if (_varCont._timeyPoints >= _varCont._towerCost){
+    	        // Build Tower above Buildplace
+			GameObject towerInstance = (GameObject)Instantiate(towerPrefab);
+			towerInstance.transform.position = transform.position + Vector3.up;
+			_varCont._timeyPoints -= _varCont._towerCost;
+		}
+	}
 }

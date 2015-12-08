@@ -46,4 +46,11 @@ public class variableControl : MonoBehaviour {
 	public int _timeyPower = 30;
 	public int _timeySpeed = 30;
 
+	//					//
+	// TIMEY POINTS CONTROL
+	//					//
+	public int _timeyPoints = 10;
+	public int _pointsPerDalek = 10;
+	public int _towerCost = 10;
+
 }
