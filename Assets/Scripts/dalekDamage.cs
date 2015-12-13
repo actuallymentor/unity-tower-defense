@@ -11,7 +11,7 @@ public class dalekDamage : MonoBehaviour {
 
 	void Update() {
 		if (varCont.tardisCurrent() < 0) {
-			Application.LoadLevel(0);
+			Application.LoadLevel(3);
 		}
 	}
 

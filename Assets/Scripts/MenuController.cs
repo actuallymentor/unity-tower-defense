@@ -6,7 +6,7 @@ public class MenuController : MonoBehaviour {
 	void OnMouseUp(){ 
 		switch(_isStart) {
 			case true:
-			Application.LoadLevel(1);
+			Application.LoadLevel(2);
 			break;
 			case false:
 			Application.Quit();
