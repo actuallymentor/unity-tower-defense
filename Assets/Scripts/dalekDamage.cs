@@ -18,7 +18,7 @@ public class dalekDamage : MonoBehaviour {
 	// Dalek reaches Tardis
 	void OnTriggerEnter(Collider other) {
 
-		if (other.gameObject.name == "Dalek(Clone)") {
+		if (other.gameObject.name == "ActualDalek(Clone)") {
 			varCont.tardisDecrease(varCont.enemyDifficulty);
 			Debug.Log ("Current health is " + varCont.tardisCurrent() );
 			Destroy (other.gameObject);

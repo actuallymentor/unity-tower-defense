@@ -4557,9 +4557,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605efadab9092914cac090cc6838f637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnDifficulty: .5
+  spawnDifficulty: .100000001
   enemyDifficulty: 10
-  spawnSpeed: 1
+  spawnSpeed: .5
   dalekHealth: 100
   _dalekSpeed: .800000012
   TardisHealth: 100
