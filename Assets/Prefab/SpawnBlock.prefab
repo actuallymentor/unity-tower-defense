@@ -37,7 +37,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137350}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
@@ -49,7 +49,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -86,8 +88,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dalekPrefab: {fileID: 109168, guid: 453df1851b32fc94c93e0db4c2bc851f, type: 2}
-  spawningDaleks: 0
-  spawnDifficulty: .100000001
+  varCont: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -103,6 +104,10 @@ Prefab:
       propertyPath: dalekPrefab
       value: 
       objectReference: {fileID: 109168, guid: 453df1851b32fc94c93e0db4c2bc851f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 137350}
