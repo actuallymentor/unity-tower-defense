@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\SpawnController.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
      <Compile Include="Assets\Scripts\TW_Behavior.cs" />
+     <Compile Include="Assets\Scripts\TardisExplodes.cs" />
      <Compile Include="Assets\Scripts\TimeyPUI.cs" />
      <Compile Include="Assets\Scripts\Zoom.cs" />
      <Compile Include="Assets\Scripts\dalekDamage.cs" />
