@@ -15,8 +15,8 @@ public class ShootTimey : MonoBehaviour {
     void ShootTimeyWimey() {
         // Build Tower above Buildplace
         GameObject twInstance = Instantiate(_timeyWimey);
-        twInstance.transform.position = transform.position + new Vector3(0,1,1);
-        twInstance.transform.position = transform.position + Vector3.forward;
+        twInstance.transform.position = transform.position + new Vector3(0.5f,0,1);
+        // twInstance.transform.position = transform.position + Vector3.forward;
     }
 
 }

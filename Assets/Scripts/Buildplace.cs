@@ -15,7 +15,7 @@ public class Buildplace : MonoBehaviour {
 		if (_varCont._timeyPoints >= _varCont._towerCost){
     	        // Build Tower above Buildplace
 			GameObject towerInstance = (GameObject)Instantiate(towerPrefab);
-			towerInstance.transform.position = transform.position + new Vector3(0,1,1);
+			towerInstance.transform.position = transform.position + Vector3.up - new Vector3(0.5f,0,0.3f);
 			_varCont._timeyPoints -= _varCont._towerCost;
 		}
 	}

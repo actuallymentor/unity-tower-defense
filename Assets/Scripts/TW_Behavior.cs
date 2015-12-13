@@ -18,7 +18,7 @@ public class TW_Behavior : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		switch (other.gameObject.name) {
-			case "Dalek(Clone)":
+			case "ActualDalek(Clone)":
 			other.gameObject.GetComponent<DalekHealth>()._dalekInstanceHealth -= _varCont._timeyPower;
 			print(other.gameObject.GetComponent<DalekHealth>()._dalekInstanceHealth);
 			Destroy (gameObject);

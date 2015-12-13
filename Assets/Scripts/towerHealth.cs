@@ -38,14 +38,14 @@ public class towerHealth : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter(Collider enemy) { // Activate extermination at contact
-		if (enemy.gameObject.name == "Dalek(Clone)") {
+		if (enemy.gameObject.name == "ActualDalek(Clone)") {
 			inPain = true;
 		}
 	}
 
 	
 	void OnTriggerExit(Collider enemy) { // Deactivate extermination at contact loss
-		if (enemy.gameObject.name == "Dalek(Clone)") {
+		if (enemy.gameObject.name == "ActualDalek(Clone)") {
 			inPain = false;
 		}
 	}
