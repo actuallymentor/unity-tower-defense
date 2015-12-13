@@ -7,7 +7,7 @@ public class Highlight : MonoBehaviour {
 	void OnMouseEnter()
 	{
 		startcolor = GetComponent<Renderer>().material.color;
-		GetComponent<Renderer>().material.color = Color.yellow;
+		GetComponent<Renderer>().material.color = Color.white;
 	}
 	void OnMouseExit()
 	{
