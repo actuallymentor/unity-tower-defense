@@ -87,7 +87,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bcdc9fa35b5a82479a9d6eb49a61528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dalekPrefab: {fileID: 109168, guid: 453df1851b32fc94c93e0db4c2bc851f, type: 2}
+  dalekPrefab: {fileID: 141058, guid: 8455b678e0653478aa971f47b65a5f92, type: 2}
   varCont: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
@@ -103,7 +103,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: dalekPrefab
       value: 
-      objectReference: {fileID: 109168, guid: 453df1851b32fc94c93e0db4c2bc851f, type: 2}
+      objectReference: {fileID: 141058, guid: 8455b678e0653478aa971f47b65a5f92, type: 2}
     - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 0
