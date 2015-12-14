@@ -894,6 +894,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3ac45a34ee65d9b4188cfa6f01776ae0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &289213897 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 133044, guid: 8455b678e0653478aa971f47b65a5f92, type: 2}
+  m_PrefabInternal: {fileID: 1573181062}
+--- !u!114 &289213901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 289213897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45c0e48cb66d4b8f828d95b3d676e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startcolor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &292903155
 Prefab:
   m_ObjectHideFlags: 0
