@@ -3,7 +3,7 @@
 public class SpawnController : MonoBehaviour {
 	
 	public GameObject dalekPrefab;
-	public static bool spawningDaleks = true;
+	public static bool spawningDaleks = false;
 	public variableControl varCont;
 
 	void Start () {

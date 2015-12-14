@@ -13,7 +13,7 @@ public class TW_Behavior : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		gameObject.GetComponent<Rigidbody>().AddForce(0, 0, thrust, ForceMode.Force);
+		gameObject.GetComponent<Rigidbody>().AddForce(0, 0, 1, ForceMode.Force);
 	}
 
 	void OnTriggerEnter(Collider other) {
