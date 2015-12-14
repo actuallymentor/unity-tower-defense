@@ -40,18 +40,61 @@
 	"buffers":
 	[
 		{
-			"file": "Assets/Scripts/TardisExplodes.cs",
+			"file": "Assets/Scripts/towerHealth.cs",
 			"settings":
 			{
-				"buffer_size": 210,
+				"buffer_size": 1115,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Assets/Scripts/MenuController.cs",
+			"file": "Assets/Scripts/ShootTimey.cs",
 			"settings":
 			{
-				"buffer_size": 267,
+				"buffer_size": 1078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/SpawnController.cs",
+			"settings":
+			{
+				"buffer_size": 819,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "using UnityEngine;\n\npublic class TW_Behavior : MonoBehaviour {\n	public variableControl _varCont;\n	public float thrust;\n\n\n\n	// Send the timey wimey on its way\n	void Start () {\n		GameObject theGround = GameObject.Find(\"Ground\");\n		_varCont = theGround.GetComponent<variableControl>();\n		thrust = _varCont._timeySpeed;\n	}\n\n	void FixedUpdate () {\n		gameObject.GetComponent<Rigidbody>().AddForce(0, 0, 1, ForceMode.Force);\n	}\n\n	void OnTriggerEnter(Collider other) {\n		switch (other.gameObject.name) {\n			case \"ActualDalek(Clone)\":\n			other.gameObject.GetComponent<DalekHealth>()._dalekInstanceHealth -= _varCont._timeyPower;\n			print(other.gameObject.GetComponent<DalekHealth>()._dalekInstanceHealth);\n			Destroy (gameObject);\n			break;\n			case \"Black Hole\":\n			Destroy (gameObject);\n			break;\n			case \"WibblyWobbly(Clone)\":\n			Debug.Log(\"WW Detected\");\n			break;\n		}\n	}\n}",
+			"file": "Assets/Scripts/TW_Behavior.cs",
+			"file_size": 869,
+			"file_write_time": 130945577660000000,
+			"settings":
+			{
+				"buffer_size": 867,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Highlight.cs",
+			"settings":
+			{
+				"buffer_size": 339,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/BlinkYellow.cs",
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/DalekHealth.cs",
+			"settings":
+			{
+				"buffer_size": 445,
 				"line_ending": "Unix"
 			}
 		}
@@ -93,10 +136,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Mentor/Dev/Unity/unity-tower-defense"
+		"/Users/Mentor/Dev/Unity/unity-pvz",
+		"/Users/Mentor/Dev/Unity/unity-pvz/Assets",
+		"/Users/Mentor/Dev/Unity/unity-pvz/Assets/Scripts"
 	],
 	"file_history":
 	[
+		"/Users/Mentor/Dev/Unity/unity-pvz/Assets/Scripts/MenuController.cs",
+		"/Users/Mentor/Dev/Unity/unity-pvz/Assets/Scripts/ShootTimey.cs",
+		"/Users/Mentor/Dev/Unity/unity-pvz/Assets/Scripts/TW_Behavior.cs",
+		"/Users/Mentor/Dev/Unity/unity-pvz/Assets/Scripts/Wobble.cs",
+		"/Users/Mentor/Dev/Unity/unity-pvz/Assets/Scripts/SpawnController.cs",
+		"/Users/Mentor/Dev/Unity/unity-pvz/Assets/Scripts/IntroCutscene.cs",
+		"/Users/Mentor/Dev/Unity/unity-pvz/Assets/Scripts/TardisExplodes.cs",
 		"/Users/Mentor/Dev/Unity/unity-tower-defense/Assets/Scripts/Highlight.cs",
 		"/Users/Mentor/Dev/Unity/unity-tower-defense/Assets/Scripts/StartMenu.cs",
 		"/Users/Mentor/Dev/Unity/unity-tower-defense/Assets/Scripts/HealthUI.cs",
@@ -217,14 +269,7 @@
 		"/C/Users/Mentor/AppData/Local/Evernote/Evernote/Databases/Attachments/php_class.php",
 		"/E/Onedrive/github/wp-remindme-sendy/empty-plugin.php",
 		"/C/Users/Mentor/Desktop/startmining.bat",
-		"/C/Users/Mentor/Desktop/test.bat",
-		"/C/Users/Mentor/Desktop/ethereum.bat",
-		"/C/Users/Mentor/Desktop/Installethereum.sh",
-		"/C/Users/Mentor/geth.log",
-		"/C/Program Files/Ethereum (++) 0.9.38/include/ethereum/GenesisInfo.h",
-		"/E/genesis_block.json",
-		"/C/Users/Mentor/AppData/Local/Temp/scp08128/etc/nginx/conf.d/skillcollector.conf",
-		"/C/Users/Mentor/AppData/Local/Temp/scp07664/etc/nginx/mod_pagespeed.conf"
+		"/C/Users/Mentor/Desktop/test.bat"
 	],
 	"find":
 	{
@@ -324,58 +369,64 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Assets/Scripts/TardisExplodes.cs",
+					"file": "Assets/Scripts/towerHealth.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 210,
+						"buffer_size": 1115,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								210
+								790,
+								790
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 20.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/ShootTimey.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
 							]
 						],
 						"settings":
 						{
 							"oops":
 							{
-								"201,209": "'Renderer' is not a known identifier",
-								"210,211": "'GetComponent' is not a known identifier",
-								"212,213": "'TardisExplodes' does not contain a definition for 'GetComponent'",
-								"213,221": "'?' does not contain a definition for 'material'",
-								"222,233": "'?' does not contain a definition for 'mainTexture'",
-								"237,249": "Cannot convert from ? to [UnknownType MovieTexture]",
-								"272,283": "'AudioSource' is not a known identifier",
-								"284,285": "'GetComponent' is not a known identifier",
-								"286,287": "'TardisExplodes' does not contain a definition for 'GetComponent'",
-								"287,291": "'?' does not contain a definition for 'clip'",
-								"300,309": "'MovieTexture' does not contain a definition for 'audioClip'",
-								"332,343": "'AudioSource' is not a known identifier",
-								"344,345": "'GetComponent' is not a known identifier",
-								"346,347": "'TardisExplodes' does not contain a definition for 'GetComponent'",
-								"347,351": "'?' does not contain a definition for 'Play'",
-								"353,354": "'?' does not contain a definition for 'Play'",
-								"369,373": "'MovieTexture' does not contain a definition for 'Play'",
-								"375,376": "'MovieTexture' does not contain a definition for 'Play'",
-								"463,472": "Error: Boolean",
-								"488,493": "'Debug' is not a known identifier",
-								"494,497": "'?' does not contain a definition for 'Log'",
-								"511,512": "'?' does not contain a definition for 'Log'",
-								"525,536": "'Application' is not a known identifier",
-								"537,546": "'?' does not contain a definition for 'LoadLevel'",
-								"549,550": "'?' does not contain a definition for 'LoadLevel'",
-								"6,17": "'UnityEngine' is not a known identifier",
-								"76,89": "'MonoBehaviour' is not a known identifier",
-								"96,108": "'MovieTexture' is not a known identifier"
+								"197,202": "Initializing field by default value is redundant",
+								"729,737": "Parameter can be declared with base type",
+								"787,789": "Convert to '|=' expresssion",
+								"911,919": "Parameter can be declared with base type",
+								"976,978": "Convert to '&=' expresssion"
 							},
 							"syntax": "Packages/C#/C#.tmLanguage",
 							"tab_size": 4,
@@ -385,24 +436,61 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "Assets/Scripts/MenuController.cs",
+					"buffer": 2,
+					"file": "Assets/Scripts/SpawnController.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 267,
+						"buffer_size": 819,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								198,
-								173
+								360,
+								304
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"121,135": "Name should have prefix '_'. (Rule 'Fields').",
+								"168,175": "Name should have prefix '_'. (Rule 'Fields').",
+								"578,588": "Use 'var' keyword",
+								"605,606": "Type cast is redundant",
+								"88,99": "Name should have prefix '_'. (Rule 'Fields')."
+							},
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/Scripts/TW_Behavior.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
 							]
 						],
 						"settings":
@@ -414,7 +502,102 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/Scripts/Highlight.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								133
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"19,24": "Using directive is not used by code and can be removed safely."
+							},
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Assets/Scripts/BlinkYellow.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"103,113": "Name should have prefix '_'. (Rule 'Fields').",
+								"19,24": "Using directive is not used by code and can be removed safely."
+							},
+							"syntax": "Packages/C#/C#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Assets/Scripts/DalekHealth.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
