@@ -3,13 +3,13 @@
 public class SpawnController : MonoBehaviour {
 	
 	public GameObject dalekPrefab;
-	public static bool spawningDaleks = false;
+	public static bool spawningDaleks = true;
 	public variableControl varCont;
 
 	void Start () {
 		GameObject theGround = GameObject.Find("Ground");
 		varCont = theGround.GetComponent<variableControl>();
-		InvokeRepeating("SpawnCycle", varCont.spawnSpeed, 1.0F);
+		InvokeRepeating("SpawnCycle", varCont.spawnSpeed, 5.0F);
 	}
 	
 	void SpawnCycle() {
