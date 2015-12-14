@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class IntroCutscene : MonoBehaviour {
-
 	MovieTexture movie;
 
     // Use this for initialization
