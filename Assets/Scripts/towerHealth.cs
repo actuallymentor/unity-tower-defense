@@ -5,7 +5,7 @@ public class towerHealth : MonoBehaviour {
 	public bool inPain = false;
 	public variableControl varCont;
 	public int _towerHealth;
-
+	public Collider _theDalek;
 
 	void Start() {
 		GameObject theGround = GameObject.Find("Ground");
@@ -18,6 +18,10 @@ public class towerHealth : MonoBehaviour {
 			//Destroy(gameObject);
 			Destroy(transform.parent.gameObject);
 		}
+		if (!_theDalek && inPain) {
+            CancelInvoke("ShootTimeyWimey");
+            inPain = false;
+        }
 	}
 
 
@@ -40,6 +44,7 @@ public class towerHealth : MonoBehaviour {
 	void OnTriggerEnter(Collider enemy) { // Activate extermination at contact
 		if (enemy.gameObject.name == "ActualDalek(Clone)") {
 			Debug.Log("Health: Dalek detected");
+			_theDalek = enemy;
 			if (!inPain) {
 				Debug.Log("Enable PAIN invoke");
 				InvokeRepeating("GetHurt", 0, 1.0F);
