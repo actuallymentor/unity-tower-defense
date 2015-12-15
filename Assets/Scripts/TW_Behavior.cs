@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class TW_Behavior : MonoBehaviour {
 	public variableControl _varCont;
 	public float thrust;
+
 
 
 	// Send the timey wimey on its way
