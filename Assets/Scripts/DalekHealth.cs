@@ -13,6 +13,7 @@ public class DalekHealth : MonoBehaviour {
 	void Update() {
 		if (_dalekInstanceHealth < 0) {
 			Destroy(gameObject);
+			_varCont.spawnDifficulty += 0.01f;
 			_varCont._timeyPoints += _varCont._pointsPerDalek;
 		}
 	}

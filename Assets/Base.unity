@@ -4572,7 +4572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605efadab9092914cac090cc6838f637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnDifficulty: .200000003
+  spawnDifficulty: .100000001
   enemyDifficulty: 10
   spawnSpeed: 10
   dalekHealth: 100

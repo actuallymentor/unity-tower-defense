@@ -21,7 +21,7 @@ public class TW_Behavior : MonoBehaviour {
 		switch (other.gameObject.name) {
 			case "ActualDalek(Clone)":
 			other.gameObject.GetComponent<DalekHealth>()._dalekInstanceHealth -= _varCont._timeyPower;
-			Debug.Log("Dalek collide" + other + other.gameObject.GetComponent<DalekHealth>()._dalekInstanceHealth);
+			//Debug.Log("Dalek collide" + other + other.gameObject.GetComponent<DalekHealth>()._dalekInstanceHealth);
 			Destroy (gameObject);
 			break;
 			case "Black Hole":

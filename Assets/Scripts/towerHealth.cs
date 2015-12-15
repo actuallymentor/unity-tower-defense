@@ -11,12 +11,12 @@ public class towerHealth : MonoBehaviour {
 		GameObject theGround = GameObject.Find("Ground");
 		varCont = theGround.GetComponent<variableControl>();
 		_towerHealth = varCont.TowerHealth;
-		InvokeRepeating("GetHurt", 1, 1.0F);
 	}
 
 	void Update() {
 		if (_towerHealth < 0) {
-			Destroy(gameObject);
+			//Destroy(gameObject);
+			Destroy(transform.parent.gameObject);
 		}
 	}
 
@@ -39,6 +39,11 @@ public class towerHealth : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider enemy) { // Activate extermination at contact
 		if (enemy.gameObject.name == "ActualDalek(Clone)") {
+			Debug.Log("DALEK DETECTED");
+			if (!inPain) {
+				Debug.Log("Enable PAIN invoke");
+				InvokeRepeating("GetHurt", 0, 1.0F);
+			}
 			inPain = true;
 		}
 	}
@@ -46,6 +51,11 @@ public class towerHealth : MonoBehaviour {
 	
 	void OnTriggerExit(Collider enemy) { // Deactivate extermination at contact loss
 		if (enemy.gameObject.name == "ActualDalek(Clone)") {
+			Debug.Log("Dalek Left");
+			if (inPain) {
+				Debug.Log("Disable PAIN invoke");
+				CancelInvoke("GetHurt");
+			}
 			inPain = false;
 		}
 	}
