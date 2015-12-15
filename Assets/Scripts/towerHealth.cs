@@ -39,7 +39,7 @@ public class towerHealth : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider enemy) { // Activate extermination at contact
 		if (enemy.gameObject.name == "ActualDalek(Clone)") {
-			Debug.Log("DALEK DETECTED");
+			Debug.Log("Health: Dalek detected");
 			if (!inPain) {
 				Debug.Log("Enable PAIN invoke");
 				InvokeRepeating("GetHurt", 0, 1.0F);
@@ -51,11 +51,8 @@ public class towerHealth : MonoBehaviour {
 	
 	void OnTriggerExit(Collider enemy) { // Deactivate extermination at contact loss
 		if (enemy.gameObject.name == "ActualDalek(Clone)") {
-			Debug.Log("Dalek Left");
-			if (inPain) {
-				Debug.Log("Disable PAIN invoke");
-				CancelInvoke("GetHurt");
-			}
+			Debug.Log("Health: Dalek gone");
+			CancelInvoke("GetHurt");
 			inPain = false;
 		}
 	}

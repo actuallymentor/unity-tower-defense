@@ -4575,14 +4575,14 @@ MonoBehaviour:
   spawnDifficulty: .100000001
   enemyDifficulty: 10
   spawnSpeed: 10
-  dalekHealth: 100
+  dalekHealth: 200
   _dalekSpeed: .5
   TardisHealth: 100
   TowerHealth: 100
   WT_FireRate: 2
   _timeyPower: 30
   _timeySpeed: 1
-  _timeyPoints: 10000
+  _timeyPoints: 15
   _pointsPerDalek: 10
   _towerCost: 10
 --- !u!82 &1395060111
