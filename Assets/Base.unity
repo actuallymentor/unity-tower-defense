@@ -4558,7 +4558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605efadab9092914cac090cc6838f637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnDifficulty: .5
+  spawnDifficulty: .200000003
   enemyDifficulty: 10
   spawnSpeed: 10
   dalekHealth: 100
@@ -5497,7 +5497,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 200, y: 200, z: 200}
+  m_Size: {x: 300, y: 300, z: 300}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1636300068
 MeshRenderer:

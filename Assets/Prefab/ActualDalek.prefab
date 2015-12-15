@@ -19771,6 +19771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadfef11ff7664660951fd90378796f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _speakingFrequency: 0
 --- !u!135 &13587304
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -19779,7 +19780,7 @@ SphereCollider:
   m_GameObject: {fileID: 141058}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 80
   m_Center: {x: 0, y: 50, z: 60}
