@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\MenuController.cs" />
      <Compile Include="Assets\Scripts\MenuHover.cs" />
      <Compile Include="Assets\Scripts\SayExterminate.cs" />
+     <Compile Include="Assets\Scripts\ShakeCamera.cs" />
      <Compile Include="Assets\Scripts\ShootTimey.cs" />
      <Compile Include="Assets\Scripts\SpawnController.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
