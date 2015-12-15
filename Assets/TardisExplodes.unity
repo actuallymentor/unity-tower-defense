@@ -159,6 +159,7 @@ GameObject:
   - 23: {fileID: 983288500}
   - 114: {fileID: 983288499}
   - 82: {fileID: 983288504}
+  - 114: {fileID: 983288505}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -307,6 +308,17 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &983288505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 983288498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c326dd2f4f2431cbfa81e8f49c2815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1030697932
 GameObject:
   m_ObjectHideFlags: 0
