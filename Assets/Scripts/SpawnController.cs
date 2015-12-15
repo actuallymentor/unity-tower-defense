@@ -9,7 +9,7 @@ public class SpawnController : MonoBehaviour {
 	void Start () {
 		GameObject theGround = GameObject.Find("Ground");
 		varCont = theGround.GetComponent<variableControl>();
-		InvokeRepeating("SpawnCycle", varCont.spawnSpeed, 5.0F);
+		InvokeRepeating("SpawnCycle", 5.0F, varCont.spawnSpeed);
 	}
 	
 	void SpawnCycle() {
