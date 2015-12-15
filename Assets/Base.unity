@@ -3713,8 +3713,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1202661757}
-  m_LocalRotation: {x: .232613266, y: -.667750716, z: .232613534, w: .667750776}
-  m_LocalPosition: {x: 5.90999985, y: 5.28999996, z: 2.75}
+  m_LocalRotation: {x: .318314165, y: -.631407917, z: .318314463, w: .631408036}
+  m_LocalPosition: {x: 3.97000003, y: 6.05000019, z: 2.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4573,17 +4573,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605efadab9092914cac090cc6838f637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnDifficulty: .100000001
+  spawnDifficulty: .300000012
   enemyDifficulty: 10
   spawnSpeed: 10
   dalekHealth: 200
-  _dalekSpeed: .5
+  _dalekSpeed: 1
   TardisHealth: 200
   TowerHealth: 150
   WT_FireRate: 2
   _timeyPower: 30
   _timeySpeed: 1
-  _timeyPoints: 15
+  _timeyPoints: 40
   _pointsPerDalek: 10
   _towerCost: 10
 --- !u!82 &1395060111
